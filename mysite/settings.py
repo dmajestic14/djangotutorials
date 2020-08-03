@@ -25,7 +25,7 @@ SECRET_KEY = '))&8z2&5n5%71lu^ngd3*7_mzw@0d5l@42elr*)0ycfwnps!o2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.wellcometomysite.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'dmajestic.pythonanywhere.com']
 
 
 # Application definition
