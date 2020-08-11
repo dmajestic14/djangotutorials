@@ -7,9 +7,17 @@
             <h1><a href="/">Rowell's Blog</a></h1>
         </div>
 
+    {% for post in posts %}
+        <div>
+            <p>published: {{ post.published_date }}</p>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+
         <div>
             <h2><a href="https://www.youtube.com/watch?v=Gw29f7CltII">Lupang Hinirang</a></h2>
-            <p>published: 03.08.2020, 15:50</p>
+            <p>Published: 03.08.2020, 15:50</p>
         </div>
             <div style="margin-left: 1em;">
                 <p>Bayang magiliw<br>
@@ -30,7 +38,7 @@
 
         <div>
             <h2><a href="">Pilipinas Kong Mahal</a></h2>
-            <p>published: 03.08.2020, 16:00:00</p>
+            <p>Published: 03.08.2020, 16:00:00</p>
         </div>
             <div style="margin-left: 1em;">
                 <p>Ang bayan ko'y tanging ikaw,<br>
